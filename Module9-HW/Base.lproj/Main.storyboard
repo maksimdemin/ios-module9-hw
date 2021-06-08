@@ -345,7 +345,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg5-4F-tH2">
-                                <rect key="frame" x="140" y="330" width="134" height="30"/>
+                                <rect key="frame" x="140" y="458" width="134" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonForChangeTextLabel:" destination="xNR-Bq-Dex" eventType="touchUpInside" id="0Jh-bO-KsD"/>
@@ -356,8 +356,8 @@
                         <color key="backgroundColor" red="0.7454036912155948" green="0.84252291050220474" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bg5-4F-tH2" firstAttribute="leading" secondItem="vUv-9R-lyL" secondAttribute="leading" constant="140" id="Zb3-v2-qmZ"/>
+                            <constraint firstItem="bg5-4F-tH2" firstAttribute="top" secondItem="vUv-9R-lyL" secondAttribute="top" constant="414" id="fWG-Bv-uNx"/>
                             <constraint firstItem="J6E-2T-ieH" firstAttribute="top" secondItem="vUv-9R-lyL" secondAttribute="top" constant="103" id="ish-g1-m8F"/>
-                            <constraint firstItem="vUv-9R-lyL" firstAttribute="bottom" secondItem="bg5-4F-tH2" secondAttribute="bottom" constant="453" id="m6k-S2-PhS"/>
                             <constraint firstItem="bg5-4F-tH2" firstAttribute="centerX" secondItem="GzN-Tl-ohK" secondAttribute="centerX" id="nrF-7M-oJg"/>
                             <constraint firstItem="vUv-9R-lyL" firstAttribute="trailing" secondItem="J6E-2T-ieH" secondAttribute="trailing" constant="103" id="p3K-HH-OGe"/>
                             <constraint firstItem="J6E-2T-ieH" firstAttribute="leading" secondItem="vUv-9R-lyL" secondAttribute="leading" constant="113" id="uQM-wz-TEN"/>
